@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:weightSum="1"
+        android:id="@+id/nombre">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:id="@+id/nom" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etn"
+            android:layout_weight="0.99" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:weightSum="1"
+        android:id="@+id/juego">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="ID Juego"
+            android:id="@+id/idj" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etid"
+            android:numeric="integer"
+            android:inputType="number"
+            android:layout_weight="0.99" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/plataforma"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Plataforma"
+            android:id="@+id/pla" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etpl"
+            android:layout_weight="0.99" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/puntuacion"
+        android:weightSum="0.99">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Puntuación"
+            android:id="@+id/pun" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etp"
+            android:numeric="integer"
+            android:inputType="number"
+            android:layout_weight="0.99" />
+    </LinearLayout>
+
+</LinearLayout>
