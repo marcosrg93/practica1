@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:padding="10dip"
+    android:gravity="center_vertical|center_horizontal">
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/Icono"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:id="@+id/ly1" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:text="IdJuego"
+            android:id="@+id/tvI"
+            android:textAlignment="center"
+            android:textSize="7dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:id="@+id/tvId"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="45dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="1dp"
+        android:id="@+id/ly2">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:text="Puntuación"
+            android:id="@+id/tvP"
+            android:textAlignment="center"
+            android:textSize="7dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvPunt"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ly3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:text="Nombre"
+            android:id="@+id/tvN"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvNom"
+            android:textSize="22dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:text="Plataforma"
+            android:id="@+id/tvPl"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvplat"
+            android:textSize="22dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>
