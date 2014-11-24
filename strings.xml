@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mis VideoJuegos</string>
+    <string name="anadir">Añadir</string>
+    <string name="borrar">Borrar</string>
+    <string name="editar">Editar</string>
+    <string name="nombre">Nombre</string>
+    <string name="ID">ID</string>
+    <string name="plataforma">Plataforma</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="title_activity_Principal_activity">PrincipalActivity</string>
+    <string name="ordenaN">Ordenar por Nombre</string>
+    <string name="ordenarP">Ordenar por Puntuación</string>
+    <string name="btsi">Vale</string>
+    <string name="btNo">NO</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
