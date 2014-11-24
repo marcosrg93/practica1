@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal">
+
+    <item android:id="@+id/anadir"
+        android:title="Añadir"
+        />
+    <item android:id="@+id/ordenarN"
+        android:title="Ordenar por Nombre"
+        />
+    <item android:id="@+id/ordenarP"
+        android:title="Ordenar por Puntuación"
+        />
+    <item android:id="@+id/ordenarID"
+        android:title="Ordenar por ID Juego"
+        />
+</menu>
